@@ -8,10 +8,10 @@ GraphNode::GraphNode(int id)
 
 GraphNode::~GraphNode()
 {
-    //// STUDENT CODE
+    //// STUDENT CODE [DONE]
     ////
 
-    delete _chatBot; 
+    _chatBot = nullptr; 
 
     ////
     //// EOF STUDENT CODE

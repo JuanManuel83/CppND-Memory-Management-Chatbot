@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/build",
+  "command": "/usr/bin/c++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.2 -isystem /usr/include/wx-3.2  -pthread -g -std=gnu++17 -o CMakeFiles/membot.dir/src/chatbot.cpp.o -c \"/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/chatbot.cpp\"",
+  "file": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/chatbot.cpp",
+  "output": "CMakeFiles/membot.dir/src/chatbot.cpp.o"
+},
+{
+  "directory": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/build",
+  "command": "/usr/bin/c++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.2 -isystem /usr/include/wx-3.2  -pthread -g -std=gnu++17 -o CMakeFiles/membot.dir/src/chatgui.cpp.o -c \"/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/chatgui.cpp\"",
+  "file": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/chatgui.cpp",
+  "output": "CMakeFiles/membot.dir/src/chatgui.cpp.o"
+},
+{
+  "directory": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/build",
+  "command": "/usr/bin/c++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.2 -isystem /usr/include/wx-3.2  -pthread -g -std=gnu++17 -o CMakeFiles/membot.dir/src/chatlogic.cpp.o -c \"/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/chatlogic.cpp\"",
+  "file": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/chatlogic.cpp",
+  "output": "CMakeFiles/membot.dir/src/chatlogic.cpp.o"
+},
+{
+  "directory": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/build",
+  "command": "/usr/bin/c++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.2 -isystem /usr/include/wx-3.2  -pthread -g -std=gnu++17 -o CMakeFiles/membot.dir/src/graphedge.cpp.o -c \"/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/graphedge.cpp\"",
+  "file": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/graphedge.cpp",
+  "output": "CMakeFiles/membot.dir/src/graphedge.cpp.o"
+},
+{
+  "directory": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/build",
+  "command": "/usr/bin/c++ -DWXUSINGDLL -D_FILE_OFFSET_BITS=64 -D__WXGTK__ -isystem /usr/lib/x86_64-linux-gnu/wx/include/gtk3-unicode-3.2 -isystem /usr/include/wx-3.2  -pthread -g -std=gnu++17 -o CMakeFiles/membot.dir/src/graphnode.cpp.o -c \"/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/graphnode.cpp\"",
+  "file": "/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/src/graphnode.cpp",
+  "output": "CMakeFiles/membot.dir/src/graphnode.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/build/CMakeFiles/membot.dir
+/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/build/CMakeFiles/edit_cache.dir
+/home/juanma/Documentos/Cursos/Udacity/Memory Management/project/CppND-Memory-Management-Chatbot/build/CMakeFiles/rebuild_cache.dir
