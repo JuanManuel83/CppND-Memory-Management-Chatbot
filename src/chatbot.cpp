@@ -11,6 +11,8 @@
 // constructor WITHOUT memory allocation
 ChatBot::ChatBot()
 {
+
+    std::cout << "Chatbot constructor without memory allocation" << std::endl;
     // invalidate data handles
     _image = nullptr;
     _chatLogic = nullptr;
@@ -20,7 +22,7 @@ ChatBot::ChatBot()
 // constructor WITH memory allocation
 ChatBot::ChatBot(std::string filename)
 {
-    std::cout << "ChatBot Constructor" << std::endl;
+    std::cout << "ChatBot Constructor with memory allocation" << std::endl;
     
     // invalidate data handles
     _chatLogic = nullptr;
@@ -48,7 +50,8 @@ ChatBot::ChatBot(const ChatBot &source)                 // copy constructor
 {
     std::cout << "Copy constructor from " << &source << std::endl;
     if (source._image != NULL){
-        _image = new wxBitmap(*source._image);
+        _image = new wxBitmap();
+        *_image = *source._image;
     } else {
         _image = NULL;
     }
@@ -73,7 +76,8 @@ ChatBot &ChatBot::operator=(const ChatBot &source)      // copy assignment opera
     }
 
     if (source._image != NULL){
-        _image = new wxBitmap(*source._image);
+        _image = new wxBitmap();
+        *_image = *source._image;
     } else {
         _image = NULL;
     }
@@ -81,7 +85,7 @@ ChatBot &ChatBot::operator=(const ChatBot &source)      // copy assignment opera
     _currentNode = source._currentNode;
     _rootNode = source._rootNode;
     _chatLogic = source._chatLogic;
-
+    _chatLogic->SetChatbotHandle(this);
     return *this;
 }
 ChatBot::ChatBot(ChatBot &&source)                      // move constructor
@@ -89,7 +93,8 @@ ChatBot::ChatBot(ChatBot &&source)                      // move constructor
     std::cout << "Moving constructor from " << &source << std::endl;
 
     if (source._image != NULL){
-        _image = new wxBitmap(*source._image);
+        _image = new wxBitmap();
+        *_image = *source._image;
     } else {
         _image = NULL;
     }
@@ -97,6 +102,7 @@ ChatBot::ChatBot(ChatBot &&source)                      // move constructor
     _currentNode = source._currentNode;
     _rootNode = source._rootNode;
     _chatLogic = source._chatLogic;
+    _chatLogic->SetChatbotHandle(this);
 
     source._image = NULL;
     source._currentNode = nullptr;
@@ -114,8 +120,9 @@ ChatBot &ChatBot::operator=(ChatBot &&source)           // move assignment opera
     }
 
 
-    if (source._image != NULL){
-        _image = new wxBitmap(*source._image);
+    if (source._image != nullptr){
+        _image = new wxBitmap();
+        *_image = *source._image;
     } else {
         _image = NULL;
     }
@@ -123,6 +130,7 @@ ChatBot &ChatBot::operator=(ChatBot &&source)           // move assignment opera
     _currentNode = source._currentNode;
     _rootNode = source._rootNode;
     _chatLogic = source._chatLogic;
+    _chatLogic->SetChatbotHandle(this);
 
     source._image = NULL;
     source._currentNode = nullptr;
